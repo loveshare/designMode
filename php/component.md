@@ -35,7 +35,7 @@ abstract class Company
      * @param Company $company   子公司，部门 
      * @return mixed 
      */  
-    abstract function Remove(Company $company);  
+    abstract function Remove(Company $company);   
   
     /**显示公司及部门结构 
      * @param $depth 
