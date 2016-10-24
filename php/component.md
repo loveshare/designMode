@@ -6,13 +6,7 @@
 ##实现
 ```php
 <?php  
-/** 
- * Created by PhpStorm. 
- * User: Jiang 
- * Date: 2015/5/2 
- * Time: 21:14 
- */  
-  
+
 /**抽象结构角色          公司 
  * Class Company 
  */  
@@ -41,7 +35,7 @@ abstract class Company
      * @param $depth 
      * @return mixed 
      */  
-    abstract function Display($depth);  
+    abstract function Display($depth);
   
 }  
   
